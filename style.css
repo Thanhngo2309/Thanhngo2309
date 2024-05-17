@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* nav.header */
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.nav-header .icon-caulong {
+  margin-left: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+/* search */
+.search {
+  
+  margin-top: 10px;
+}
+.search input {
+  border-radius: 50%;
+  width: 500px;
+  height: 50%;
+  text-align: center;
+  background-color: rgb(139, 142, 136);
+}
+
+/* hotline */
+.hotline {
+  display: flex;
+  margin-right: 7%;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* shopSytem */
+.shopSytem {
+  display: flex;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* nav-bar */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  color: white;
+}
+.nav-bar li {
+    list-style-type: none;
+  }
+/* nav-left*/
+.nav-left {
+  width: 50%;
+}
+.nav-left li {
+  padding-right: 10%;
+}
+.nav-left ul {
+  display: flex;
+  padding: 10px;
+  padding-left: 10%;
+}
+/* nav-right */
+.nav-right{
+    width: 27%;
+}
+.nav-right ul {
+  display: flex;
+  padding: 10px;
+}
+.nav-right li{
+    padding-right: 20%;
+}
+
+/* body */
+.body{
+    display: flex;
+   
+}
+.list-item{
+    
+}
+.home-page{
+    
+}
+.banner img{
+  width:118%;
+  
+}
+
