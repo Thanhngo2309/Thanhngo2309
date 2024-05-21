@@ -1,3 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  color: #333;
+}
 .banner {
   display: flex;
   flex-direction: column;
@@ -13,6 +25,7 @@
   color: white;
   width: 45%;
   font-size: 35px;
+  margin: 20px 0 20px 0;
 }
 .banner .info {
   display: flex;
@@ -26,9 +39,9 @@
   display: flex;
   align-items: center;
 }
-.author img {
+.banner .info .author img {
   padding-right: 20px;
-  width: 30px;
+  width: 50px;
   height: 30px;
 }
 .btn-banner {
@@ -46,7 +59,9 @@
   transform: scale(0.99);
 }
 .content_card h1 {
-  font-size: 20px;
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 .row {
   display: flex;
@@ -54,51 +69,53 @@
   margin-bottom: 60px;
 }
 
-.card .info {
-  display: flex;
+.card {
+  padding: 10px;
 }
 
+.card :hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+.content_card p {
+  color: rgb(0, 158, 244);
+  padding-left: 7px;
+}
+
+.content_card .info p {
+  color: gray;
+}
 .content_card .info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .content_card .info .date {
-  padding-right: 100px;
+  padding-right: 5px;
 }
 .content_card .info img {
-  width: 20px;
-  height: 20px;
+  width: 30px;
 }
 .card {
   width: 300px;
+}
+
+.thumbnail {
+  margin-bottom: 20px;
 }
 
 .loadMore-btn button {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-
+  cursor: pointer;
   border-radius: 5px;
   padding: 8px;
   background-color: aliceblue;
 }
 
-/* Reset CSS */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-/* Global Styles */
-body {
-  font-family: "Work Sans", sans-serif;
-  font-size: 16px;
-  color: #333;
-}
-
-/* Header Styles */
 header {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
