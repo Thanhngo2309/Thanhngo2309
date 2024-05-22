@@ -104,59 +104,61 @@
   border: 5px solid blue;
 }
 
-.quicklink, .category {
-  display: flex; /* Make .quicklink and .category flex containers */
-  flex-direction: column; /* Align contents vertically */
-  justify-content: flex-start; /* Align contents to the start vertically */
-  align-items: flex-start;
-  width: 100%; /* Make both take equal available width */
-  flex: 1; /* Ensure both sections take equal space */
-  opacity: 1; /* Ensure visibility */
-}
-
 .quicklink {
-  width: 90px;
-  height: 236px;
+  display: flex; /* Make .quicklink and .category flex containers */
+  flex-direction: column;
+  max-width: 90px;
+  width: auto;        
+  max-height: 236px;
+  height: auto;
   gap: 24px;
-  opacity: 1;
   border: 1px solid green;
-}
+  }
 
 .quicklink1 {
+  max-width: 90px;
+  width: auto;
+  max-height: 28px;
+  height: auto;
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
   text-align: left;
   color: rgba(24, 26, 42, 1);
-  
+  margin: 0; /* Đảm bảo không có margin xung quanh */
+  padding: 0;
+  white-space: nowrap; /* Ngăn văn bản xuống dòng */ 
 }
 
-.linklist {
-  width: 100%;
+.quicklink linklist {
+  max-width: 67px;
+  width: auto;
+  max-height: 184px;
   height: auto;
   gap: 8px;
-  display: flex;
-  flex-direction: column;
+  display: flex;  
+  margin: 0; /* Đảm bảo không có margin xung quanh */
+  padding: 0; 
 }
 
 .p5 {
+  height: 24px; 
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 20px;
   text-align: left;
   color: rgba(59, 60, 74, 1);
-  padding-left: 0;
-  list-style-type: none;
-  text-align: left;
 }
 
 .category {
-  width: 89px;
-  height: 236px;
+  display: flex;
+  max-width: 89px;
+  width: auto;
+  max-height: 236px;
+  height: auto;
   gap: 24px;
-  opacity: 1; /* Ensure visibility */
   border: 1px solid orange;
 }
 
@@ -172,11 +174,13 @@
   text-align: left;
 }
 
-.categorylist {
-  width: 89px;
-  height: 184px;
+.category categorylist {
+  display: flex;
+  max-width: 89px;
+  width: auto;
+  max-height: 184px;
+  height: auto;
   gap: 8px;
-  opacity: 1; /* Ensure visibility */
 }
 
 .p6 {
