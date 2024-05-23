@@ -19,7 +19,6 @@
   gap: 20px;
   opacity: 1; /* Ensure visibility */
   margin: 0 auto; /* Center content */
-  border: 5px solid red;
 }
 
 .Infor {
@@ -96,12 +95,11 @@
 .link {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center; 
   width: 100%;
   max-width: 495px;  
   max-height: 236px;
   gap: 20px;
-  border: 5px solid blue;
 }
 
 .quicklink {
@@ -112,7 +110,6 @@
   max-height: 236px;
   height: auto;
   gap: 24px;
-  border: 1px solid green;
   }
 
 .quicklink1 {
@@ -131,7 +128,7 @@
   white-space: nowrap; /* Ngăn văn bản xuống dòng */ 
 }
 
-.quicklink linklist {
+.linklist {
   max-width: 67px;
   width: auto;
   max-height: 184px;
@@ -140,26 +137,30 @@
   display: flex;  
   margin: 0; /* Đảm bảo không có margin xung quanh */
   padding: 0; 
+  
 }
 
 .p5 {
-  height: 24px; 
+  width: 65px;
+  height: 24px;
+  gap: 0px;
+  opacity: 1; /* Ensure visibility */
   font-family: 'Plus Jakarta Sans', sans-serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 20px;
+  line-height: 13px;
   text-align: left;
-  color: rgba(59, 60, 74, 1);
+  list-style-type: none;
 }
 
 .category {
   display: flex;
+  flex-direction: column;
   max-width: 89px;
   width: auto;
   max-height: 236px;
   height: auto;
   gap: 24px;
-  border: 1px solid orange;
 }
 
 .category1 {
@@ -174,13 +175,15 @@
   text-align: left;
 }
 
-.category categorylist {
+.categorylist {
   display: flex;
   max-width: 89px;
   width: auto;
   max-height: 184px;
   height: auto;
   gap: 8px;
+  margin: 0; /* Đảm bảo không có margin xung quanh */
+  padding: 0; 
 }
 
 .p6 {
@@ -191,7 +194,7 @@
   font-family: 'Plus Jakarta Sans', sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 13px;
   text-align: left;
   list-style-type: none;
 }
