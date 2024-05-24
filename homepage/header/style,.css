@@ -1,0 +1,144 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Header Styles */
+header {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.logo img {
+  max-height: 50px;
+}
+
+.beside-logo {
+  margin-right: 20px;
+}
+
+.beside-logo nav ul {
+  list-style-type: none;
+  display: flex;
+}
+
+.beside-logo nav ul li {
+  margin-right: 45px;
+  
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.beside-logo nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+.beside-logo nav ul li a:hover {
+  color: #666;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  padding: 8px 12px;
+  
+}
+
+.search-box input {
+  background-color: transparent;
+  border: none;
+  font-size: 14px;
+  width: 200px;
+  outline: none;
+}
+
+.search-box button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.search-box button:hover {
+  color: #333;
+}
+
+.toggle-theme {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 16px;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s ease;
+}
+
+.toggle-theme:hover {
+  color: #333;
+}
+
+.Page-Title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+  font-size: 30px;
+  font-weight: 600; 
+  line-height: 36px;
+
+}
+.Page-Title nav {
+  display: flex;
+  gap: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  gap: 12px;
+}
+.Page-Titl nav a:visited {
+  color: #a8a6a633; 
+}
+
+
+
+main {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+
