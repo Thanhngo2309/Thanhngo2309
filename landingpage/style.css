@@ -312,6 +312,11 @@ header.sticky {
   color: rgba(105, 106, 117, 1);
 }
 
+.footer .content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
 .contact {
   max-width: 208px;
   width: auto;
