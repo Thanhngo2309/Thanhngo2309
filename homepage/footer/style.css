@@ -1,24 +1,24 @@
 .footer {
   display: flex;
-  width: 100%; /* Changed to 100% for responsiveness */
-  max-width: 1920px; /* Ensure it does not exceed 1920px */
+  width: 100%; 
+  max-width: 1920px; 
   height: 500px;
   padding-top: 64px;
   border: 1px solid rgba(232, 232, 234, 1);
   background-color: rgba(246, 246, 247, 1);
-  margin: 0 auto; /* Center the footer */
+  margin: 0 auto; 
 }
 
 .content {
   display: flex;
   justify-content: space-between;
   max-width: 1216px;
-  width: 100%; /* Responsive width */
+  width: 100%; 
   max-height: 254px;
   height: auto;
   gap: 20px;
-  opacity: 1; /* Ensure visibility */
-  margin: 0 auto; /* Center content */
+  opacity: 1; 
+  margin: 0 auto; 
 }
 
 .Infor {
@@ -32,14 +32,14 @@
   max-height: 160px;
   height: auto;
   gap: 12px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
 }
 
 .p1 {
   width: 55px;
   height: 28px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -52,7 +52,7 @@
   width: 280px;
   height: 120px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -67,21 +67,21 @@
   max-height: 52px;
   height: auto;
   gap: 4px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
 }
 
 .email {
   width: 208px;
   height: 24px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
 }
 
 .phone {
   width: 184px;
   height: 24px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
 }
 
 .p3,
@@ -104,7 +104,7 @@
 }
 
 .quicklink {
-  display: flex; /* Make .quicklink and .category flex containers */
+  display: flex; 
   flex-direction: column;
   max-width: 90px;
   width: auto;
@@ -124,9 +124,9 @@
   line-height: 28px;
   text-align: left;
   color: rgba(24, 26, 42, 1);
-  margin: 0; /* Đảm bảo không có margin xung quanh */
+  margin: 0; 
   padding: 0;
-  white-space: nowrap; /* Ngăn văn bản xuống dòng */
+  white-space: nowrap; 
 }
 
 .linklist {
@@ -136,7 +136,7 @@
   height: auto;
   gap: 8px;
   display: flex;
-  margin: 0; /* Đảm bảo không có margin xung quanh */
+  margin: 0; 
   padding: 0;
 }
 
@@ -144,11 +144,11 @@
   width: 65px;
   height: 24px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 13px;
+  line-height: 18px;
   text-align: left;
   list-style-type: none;
 }
@@ -167,7 +167,7 @@
   width: 83px;
   height: 28px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -182,7 +182,7 @@
   max-height: 184px;
   height: auto;
   gap: 8px;
-  margin: 0; /* Đảm bảo không có margin xung quanh */
+  margin: 0; 
   padding: 0;
 }
 
@@ -190,11 +190,11 @@
   width: 65px;
   height: 24px;
   gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 13px;
+  line-height: 18px;
   text-align: left;
   list-style-type: none;
 }
@@ -206,36 +206,100 @@
   gap: 30px;
   border-radius: 12px 0 0 0;
   background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
 }
 
 .heading {
   width: 289px;
   height: 56px;
   gap: 8px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.letter, .getblog {
+  width: 100%; 
+  height: auto; 
 }
 
 .letter {
   width: 185px;
   height: 24px;
-  gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Work Sans", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
-  text-align: center;
   color: rgba(24, 26, 42, 1);
+  text-align: center;
 }
 
 .getblog {
   width: 289px;
   height: 24px;
-  gap: 0px;
-  opacity: 1; /* Ensure visibility */
+  opacity: 1; 
   font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
+  text-align: center;
+}
+
+.form{
+  max-width: 320px;
+  width: auto;
+  max-height: 104px;
+  height: auto;
+  gap: 8px;
+  opacity: 1; 
+  margin-top: 16px; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.nhap {
+  max-width: 320px;
+  width: 100%; 
+  max-height: 48px;
+  height: auto;
+  padding: 12px 16px; 
+  gap: 10px;
+  border-radius: 6px 0 0 0; 
+  background-color: rgba(246, 246, 247, 1);
+  opacity: 1; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+}
+
+.img {
+  max-width: 20px;
+  width : auto;
+  max-height: 20px;
+  height: auto;
+  padding: 3.13px 1.25px 3.13px 1.25px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+
+}
+.bam{
+  max-width: 320px;
+  width: 100%; 
+  height: 48px;
+  padding: 12px 20px; 
+  gap: 12px;
+  border-radius: 0 0 6px 6px; 
+  opacity: 1; 
+  background-color: rgba(75, 107, 251, 1); 
+  cursor: pointer; 
   text-align: center;
 }
