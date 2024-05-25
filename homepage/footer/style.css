@@ -1,17 +1,21 @@
 .footer {
   display: flex;
+  flex-direction: column;
   width: 100%; 
   max-width: 1920px; 
+  /*height: auto;*/
   height: 500px;
   padding-top: 64px;
   border: 1px solid rgba(232, 232, 234, 1);
   background-color: rgba(246, 246, 247, 1);
   margin: 0 auto; 
+  position: relative;
 }
 
 .content {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   max-width: 1216px;
   width: 100%; 
   max-height: 254px;
@@ -202,6 +206,7 @@
 .newsletter {
   max-width: 392px;
   max-height: 254px;
+  height: 100%;
   padding: 32px 0 0 0;
   gap: 30px;
   border-radius: 12px 0 0 0;
@@ -297,9 +302,37 @@
   height: 48px;
   padding: 12px 20px; 
   gap: 12px;
-  border-radius: 0 0 6px 6px; 
+  border-radius: 6px 6px 6px 6px; 
   opacity: 1; 
   background-color: rgba(75, 107, 251, 1); 
   cursor: pointer; 
   text-align: center;
+}
+
+.copyright{
+  max-width: 1,216px;
+  width: 100%;
+  max-height: 118px;
+  height: auto;
+  padding: 32px 0px;
+  gap: 60px;
+  border: 1px 0px 0px 0px;
+  opacity: 1; 
+  border: 1px solid transparent; 
+  border-top: 1px dotted red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+} 
+
+.copyrightinfor{
+width: 363px;
+height: 54px;
+gap: 10px;
+opacity: 0px;
+
 }
