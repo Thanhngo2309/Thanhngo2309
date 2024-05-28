@@ -314,23 +314,35 @@
   height: 118px;
   padding: 32px 0 32px 0;
   gap: 64px;
-  border: 1px solid transparent;
-  border: 1px dotted red;
+  border: 1px solid transparent; 
+  border-top: 1px solid rgba(220, 221, 223, 1);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin: 0 auto;
   bottom: 0;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   align-items: center;
+  justify-content: flex-start;
+} 
+
+.logo1{
+  width: 363px;
+  height: 54px;
+  gap: 10px;
+  opacity: 0px;
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center;
+  flex-direction: row;
 }
 
-.logo {
+.logo{
   width: 48px;
   height: 48px;
   opacity: 1;
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center;
 }
 
 .copyrightinfor {
@@ -338,6 +350,11 @@
   height: 54px;
   gap: 10px;
   opacity: 1;
+  display: flex; /* Sử dụng Flexbox */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  flex-direction: column;
+  justify-content: center; 
+  box-sizing: border-box;
 }
 
 .end {
@@ -345,20 +362,26 @@
   height: 24px;
   gap: 16px;
   opacity: 0px;
+  display: flex; /* Sử dụng Flexbox */
+  flex-direction: row; /* Các phần tử hiển thị theo chiều ngang */
+  align-items: center;
 }
 
-.p7 {
-  width: 97px;
+.p7{
+  width: 789px;
   height: 24px;
   gap: 0px;
   opacity: 0px;
-
+  display: flex; /* Sử dụng Flexbox */
+  flex-direction: row;
+  align-items: center;
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: rgba(59, 60, 74, 1);
+  padding-left: 490px;
 }
 
 .devider {
