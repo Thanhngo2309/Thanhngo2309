@@ -4,6 +4,7 @@ window.addEventListener("scroll",function(){
     header.classList.toggle("sticky", window.scrollY > 0);
 })
 
+//Setting Darkmode//
 const toggleTheme = document.querySelector('.toggle-theme');
 const body = document.body;
 
@@ -17,3 +18,5 @@ toggleTheme.addEventListener('click', () => {
     toggleTheme.innerHTML = '<i class="fas fa-sun"></i>';
   }
 });
+
+//
