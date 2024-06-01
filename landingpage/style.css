@@ -81,6 +81,12 @@ body.dark-mode .container_banner h1 {
     border-color: transparent;
   }
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
 .banner .info {
   display: flex;
   max-width: 300px;
