@@ -46,6 +46,172 @@ body.dark-mode .container_banner h1 {
 
 /*The end Darkmode*/
 
+
+
+/*Code ở đây */
+.OAuthorInfo {
+  width: 1216px;
+  height: 344px;
+  padding: 48px;
+  background: #F6F6F7;
+  border-radius: 12px;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.Content {
+  height: 248px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
+
+.AAuthor {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+
+.Image {
+  width: 64px;
+  height: 64px;
+  border-radius: 80px;
+}
+
+.Info {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.JonathanDoe {
+  color: #181A2A;
+  font-size: 20px;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.CollaboratorEditor {
+  color: #696A75;
+  font-size: 14px;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  line-height: 20px;
+  word-wrap: break-word;
+}
+
+.Para {
+  align-self: stretch;
+  text-align: center;
+  color: #3B3C4A;
+  font-size: 18px;
+  font-family: 'Work Sans';
+  font-weight: 400;
+  line-height: 26px;
+  word-wrap: break-word;
+}
+
+.SocialMedia {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.AButton {
+  padding: 8px;
+  background: #696A75;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.LogoFacebook {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 1.04px;
+  padding-bottom: 1.04px;
+}
+
+.LogoFacebook .Vector {
+  width: 14px;
+  height: 13.92px;
+  background: white;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.LogoTwitter {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.LogoTwitter .Vector {
+  width: 15px;
+  height: 12px;
+  background: white;
+}
+
+.LogoInstagram {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px;
+}
+
+.LogoInstagram .Vector {
+  width: 14px;
+  height: 14px;
+  background: white;
+}
+
+.LogoYoutube {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.LogoYoutube .Vector {
+  width: 16px;
+  height: 12px;
+  background: white;
+}
+
+
+
+
+/*Kết thúc*/
+
+
 .container_banner {
   background-color: white;
 
