@@ -50,16 +50,16 @@ body.dark-mode .container_banner h1 {
 
 /*Code ở đây */
 .OAuthorInfo {
-  width: 1216px;
-  height: 344px;
-  padding: 48px;
+  width: 99%;
+  
+  padding: 40px;
   background: #F6F6F7;
-  border-radius: 12px;
+  border-radius: 20px;
   display: inline-flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .Content {
@@ -138,74 +138,41 @@ body.dark-mode .container_banner h1 {
   gap: 8px;
 }
 
-.LogoFacebook {
-  width: 16px;
-  height: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 1px;
-  padding-right: 1px;
-  padding-top: 1.04px;
-  padding-bottom: 1.04px;
-}
-
-.LogoFacebook .Vector {
-  width: 14px;
-  height: 13.92px;
-  background: white;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.LogoTwitter {
-  width: 16px;
-  height: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-left: 0.5px;
-  padding-right: 0.5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.LogoTwitter .Vector {
-  width: 15px;
-  height: 12px;
-  background: white;
-}
-
-.LogoInstagram {
-  width: 16px;
-  height: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 1px;
-}
-
-.LogoInstagram .Vector {
-  width: 14px;
-  height: 14px;
-  background: white;
-}
-
+.LogoFacebook,
+.LogoTwitter,
+.LogoInstagram,
 .LogoYoutube {
-  width: 16px;
-  height: 16px;
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.LogoYoutube .Vector {
-  width: 16px;
-  height: 12px;
-  background: white;
+.LogoFacebook:hover {
+  background-color: #3b5998;
 }
 
+.LogoTwitter:hover {
+  background-color: #1da1f2;
+}
+
+.LogoInstagram:hover {
+  background-color: #e1306c;
+}
+
+.LogoYoutube:hover {
+  background-color: #ff0000;
+}
+
+.Vector {
+  color: #fff;
+  font-size: 20px;
+}
 
 
 
