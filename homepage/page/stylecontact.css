@@ -114,7 +114,7 @@ body.dark-mode .container_banner h1 {
   text-align: center;
   color: #3B3C4A;
   font-size: 18px;
-  font-family: "Work Sans";
+  font-family: "Work Sans"
   font-weight: 400;
   line-height: 26px;
   word-wrap: break-word;
@@ -151,7 +151,7 @@ body.dark-mode .container_banner h1 {
 .LogoTwitter:hover,
 .LogoInstagram:hover,
 .LogoYoutube:hover {
-  background-color: #212020;
+  background-color: #fffcfc;
 }
 
 .Vector {
