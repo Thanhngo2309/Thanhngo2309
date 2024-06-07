@@ -331,8 +331,7 @@
   width: 363px;
   height: 54px;
   gap: 10px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   align-items: center;
   flex-direction: row;
 }
@@ -341,7 +340,7 @@
   width: 48px;
   height: 48px;
   opacity: 1;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   align-items: center;
 }
 
@@ -350,20 +349,18 @@
   height: 54px;
   gap: 10px;
   opacity: 1;
-  display: flex; /* Sử dụng Flexbox */
-  align-items: center; /* Căn giữa theo chiều dọc */
+  display: flex; 
+  align-items: center; 
   flex-direction: column;
   justify-content: center; 
-  box-sizing: border-box;
 }
 
 .end {
   width: 789px;
   height: 24px;
   gap: 16px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
-  flex-direction: row; /* Các phần tử hiển thị theo chiều ngang */
+  display: flex; 
+  flex-direction: row; 
   align-items: center;
 }
 
@@ -371,25 +368,23 @@
   width: 789px;
   height: 24px;
   gap: 0px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   flex-direction: row;
   align-items: center;
+  justify-content: flex-end;
   font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: rgba(59, 60, 74, 1);
-  padding-left: 490px;
 }
 
-.devider {
+.p7 devider {
   width: 24px;
   height: 0px;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
-  transform: rotate(-90deg);
-  border: 1px solid rgba(232, 232, 234, 1);
+  padding: 0px 10px 0 10px;
+  color:rgba(232, 232, 234, 1);
 }
