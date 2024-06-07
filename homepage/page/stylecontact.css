@@ -47,6 +47,8 @@ body.dark-mode .container_banner h1 {
 /*The end Darkmode*/
 
 /*Code ở đây */
+
+
 .OAuthorInfo {
   width: 99%;
 
@@ -164,6 +166,13 @@ body.dark-mode .container_banner h1 {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+=======
+/**/
+
+
+
+>>>>>>> 429b7d986a56a7f9ddd491285f7e5b0d3bcb444b
 /*Kết thúc*/
 
 .container_banner {
