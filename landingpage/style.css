@@ -60,10 +60,11 @@ body.dark-mode .container_banner h1 {
 .banner {
   display: flex;
   flex-direction: column;
-  background-image: url("../homepage/img/banner.png");
+  background-image: url("../homepage/img/Imagebanner.png");
   background-size: contain, cover;
   background-repeat: round;
-  height: 450px;
+  height: 500px;
+  width: 1216px;
   justify-content: end;
   margin-bottom: 200px;
   position: relative;
@@ -207,9 +208,14 @@ header {
   padding: 0 20px;
 }
 
+
 .logo img {
   max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%; /* Tạo hình tròn */
+  overflow: hidden; /* Ẩn phần hình ảnh vượt quá kích thước */
 }
+
 
 .beside-logo {
   margin-right: 20px;
