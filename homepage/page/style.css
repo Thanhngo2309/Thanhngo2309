@@ -115,6 +115,7 @@ header {
   color: #333;
 }
 /* Container Styles */
+
 .v2101_21573 {
   width: 100%;
   height: auto;
@@ -157,12 +158,12 @@ header {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
   margin-bottom: 40px;
-  text-align: center;
+  text-align: left;
 }
 
 .v2101_22010 {
   display: flex;
-  text-align: center;
+  text-align: left;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
@@ -175,7 +176,7 @@ header {
 .v2101_22013 {
   font-size: 40px;
   font-weight: bold;
-  text-align: center;
+  text-align: left;
 }
 
 .v2101_22016 {
