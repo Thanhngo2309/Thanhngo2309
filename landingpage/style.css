@@ -133,9 +133,7 @@ body.dark-mode .container_banner h1 {
 .row img {
   width: 100%;
 }
-.row img:hover {
-  transform: scale(0.99);
-}
+
 .content_card h1 {
   font-size: 17px;
   margin-bottom: 20px;
@@ -146,11 +144,6 @@ body.dark-mode .container_banner h1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
-}
-
-.card :hover {
-  transform: scale(0.9);
-  cursor: pointer;
 }
 
 .content_card p {
@@ -165,6 +158,11 @@ body.dark-mode .container_banner h1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
+}
+
+.card:hover {
+  scale: 0.9;
 }
 
 .content_card .info .date {
@@ -360,7 +358,6 @@ header.sticky {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   width: 392px;
   height: 488px;
-  margin: 0 10px;
 }
 
 .thumbnail {
