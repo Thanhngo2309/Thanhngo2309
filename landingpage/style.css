@@ -323,7 +323,7 @@ header.sticky {
   position: relative;
 }
 
-.footer .content {
+.footer content {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
@@ -377,8 +377,6 @@ header.sticky {
   padding-top: 64px;
   border: 1px solid rgba(232, 232, 234, 1);
   background-color: rgba(246, 246, 247, 1);
-  margin: 0 auto;
-  position: relative;
 }
 
 .footer .content {
@@ -497,35 +495,38 @@ header.sticky {
   line-height: 28px;
   text-align: left;
   color: rgba(24, 26, 42, 1);
-  margin: 0;
-  padding: 0;
   white-space: nowrap;
 }
 
 .linklist {
-  max-width: 67px;
-  width: auto;
-  max-height: 184px;
-  height: auto;
+  width: 67px;
+  height: 184px;
   gap: 8px;
   display: flex;
-  margin: 0;
-  padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.p5 {
+.linklist ul {
   width: 65px;
   height: 24px;
-  gap: 0px;
-  opacity: 1;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
+.linklist li{
+  width: 47px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
 .category {
   display: flex;
   flex-direction: column;
@@ -541,7 +542,6 @@ header.sticky {
   height: 28px;
   gap: 0px;
   opacity: 1;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
@@ -550,36 +550,44 @@ header.sticky {
 
 .categorylist {
   display: flex;
-  max-width: 89px;
-  width: auto;
-  max-height: 184px;
-  height: auto;
+  width: 89px;
+  height: 184px;
   gap: 8px;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
-.p6 {
+.categorylist ul {
   width: 65px;
   height: 24px;
-  gap: 0px;
-  opacity: 1;
-  font-family: "Plus Jakarta Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 18px;
   text-align: left;
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.categorylist li{
+  width: 65px;
+  height: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+
 }
 
 .newsletter {
-  max-width: 392px;
-  max-height: 254px;
-  height: 100%;
-  padding: 0 0 0;
+  width: 392px;
+  height: 254px;
+  padding: 32px 0px 0px 0px;
   gap: 30px;
-  border-radius: 12px 0 0 0;
-  background: rgba(255, 255, 255, 1);
+  border-radius: 12px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 1);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -589,24 +597,15 @@ header.sticky {
   width: 289px;
   height: 56px;
   gap: 8px;
-  opacity: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.letter,
-.getblog {
-  width: 100%;
-  height: auto;
-}
-
 .letter {
   width: 185px;
   height: 24px;
-  opacity: 1;
-  font-family: "Work Sans", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 24px;
@@ -617,8 +616,6 @@ header.sticky {
 .getblog {
   width: 289px;
   height: 24px;
-  opacity: 1;
-  font-family: "Work Sans", sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -626,26 +623,20 @@ header.sticky {
 }
 
 .form {
-  max-width: 320px;
-  width: auto;
-  max-height: 104px;
-  height: auto;
+  width: 320px;
+  height: 104px;
   gap: 8px;
-  opacity: 1;
-  margin-top: 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .nhap {
-  max-width: 320px;
-  width: 100%;
-  max-height: 48px;
-  height: auto;
+  width: 320px;
+  height: 48px;
   padding: 12px 16px;
   gap: 10px;
-  border-radius: 6px 0 0 0;
+  border-radius: 6px 6px 6px 6px;
   background-color: rgba(246, 246, 247, 1);
   opacity: 1;
   display: flex;
@@ -653,26 +644,18 @@ header.sticky {
   align-items: center;
 }
 
-.img {
-  max-width: 20px;
-  width: auto;
-  max-height: 20px;
-  height: auto;
+.anh {
+  width: 20px;
+  height: 20px;
   padding: 3.13px 1.25px 3.13px 1.25px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
+
 .bam {
-  max-width: 320px;
-  width: 100%;
+  width: 320px;
   height: 48px;
-  padding: 12px 20px;
+  padding: 12px 20px 12px 20px;
   gap: 12px;
   border-radius: 6px 6px 6px 6px;
-  opacity: 1;
   background-color: rgba(75, 107, 251, 1);
   cursor: pointer;
   text-align: center;
@@ -682,27 +665,24 @@ header.sticky {
   max-width: 1216px;
   width: 100%;
   height: 118px;
-  padding: 32px 0 32px 0;
+  padding: 32px 0px 32px 0px;
   gap: 64px;
-  border: 1px solid transparent;
   border-top: 1px solid rgba(220, 221, 223, 1);
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
-  bottom: 0;
+  align-items: center;
+  justify-content: space-between;
   position: absolute;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  align-items: center;
-  justify-content: flex-start;
 }
 
 .logo1 {
   width: 363px;
   height: 54px;
   gap: 10px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   align-items: center;
   flex-direction: row;
 }
@@ -710,48 +690,42 @@ header.sticky {
 .logo {
   width: 48px;
   height: 48px;
-  opacity: 1;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   align-items: center;
 }
 
 .copyrightinfor {
-  width: 363px;
+  width: 305px;
   height: 54px;
-  gap: 10px;
-  opacity: 1;
-  display: flex; /* Sử dụng Flexbox */
-  align-items: center; /* Căn giữa theo chiều dọc */
+  gap: 2px;
+  display: flex; 
+  align-items: center; 
   flex-direction: column;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .end {
   width: 789px;
   height: 24px;
   gap: 16px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
-  flex-direction: row; /* Các phần tử hiển thị theo chiều ngang */
+  display: flex; 
+  flex-direction: row; 
   align-items: center;
+  justify-content: flex-end;
 }
 
-.p7 {
-  width: 789px;
+.end p {
+  width: 97px;
   height: 24px;
-  gap: 0px;
-  opacity: 0px;
-  display: flex; /* Sử dụng Flexbox */
+  display: flex; 
   flex-direction: row;
   align-items: center;
-  font-family: "Plus Jakarta Sans", sans-serif;
+  justify-content: flex-end;
   font-size: 13px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
   color: rgba(59, 60, 74, 1);
-  padding-left: 490px;
 }
 
 .devider {
@@ -759,7 +733,7 @@ header.sticky {
   height: 0px;
   gap: 0px;
   border: 1px 0px 0px 0px;
-  opacity: 0px;
   transform: rotate(-90deg);
   border: 1px solid rgba(232, 232, 234, 1);
+  margin-left: 20px;
 }
