@@ -43,17 +43,48 @@
     <main>
         <!-- code o day  -->
         <div class="container-contact">
-            <form action="" class="contact">
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
                 <div class="contact_title">
                     <h2>Get in touch</h2>
+                    <hr>
                 </div>
-                <input type="text" name="name" placeholder="Your Name" class="contact-input">
-                <input type="email" name="email" placeholder="Your Email" class="contact-input">
-                <textarea name="message" placeholder="Your message" class="contact-input"></textarea>
-                <button type="submit">Submit <img src=""></button>
+                <input type="hidden" name="access_key" value="f746324a-da3c-4c94-ad8c-9c63f332b8e4">
+                <input type="text" name="name" placeholder="Your Name" class="contact-input" required>
+                <input type="email" name="email" placeholder="Your Email" class="contact-input" required>
+                <textarea name="message" placeholder="Your message" class="contact-input" required></textarea>
+                <button type="submit">Submit <img src="../img/right-arrow(white).png"></button>
 
             </form>
+
+
+            <div class="contact-right">
+                <div class="contact-top">
+                    <div class="info-icon">
+                        <img src="">
+                        <p></p>
+                    </div>
+                    <div class="info-icon">
+                        <img src="">
+                        <p></p>
+                    </div>
+                    <div class="info-icon">
+                        <img src="">
+                        <p></p>
+                    </div>
+                </div>
+
+                <h1>Tell us about Your Story, and we'll offer The most fitting Technological solution</h1>
+            </div>
+
+            <div class="icon_contact">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
         </div>
+
 
 
 

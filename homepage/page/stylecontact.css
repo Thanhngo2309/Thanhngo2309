@@ -47,22 +47,6 @@ body.dark-mode .container_banner h1 {
 /*The end Darkmode*/
 
 /*Code ở đây */
-.pagetitle {
-  text-align: center;
-  padding-top: 50px;
-  padding-bottom: 20px;
-}
-title_container {
-  width: max-content;
-}
-.home_and_linkone {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.home_and_linkone {
-  color: #696a75;
-}
 
 .Content {
   padding: 20px;
@@ -618,8 +602,7 @@ header.sticky {
 .contact {
   max-width: 208px;
   width: auto;
-  max-height: 52px;
-  height: auto;
+
   gap: 4px;
   opacity: 1;
 }
@@ -856,4 +839,60 @@ header.sticky {
   background-color: rgba(75, 107, 251, 1);
   cursor: pointer;
   text-align: center;
+}
+
+.container-contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  background-image: url(../img/banner.png);
+  background-size: contain, cover;
+  background-repeat: round;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 50px;
+  border-radius: 2px;
+}
+
+.contact-input {
+  width: 400px;
+  height: 50px;
+  border: none;
+  padding-left: 25px;
+  font-weight: 500;
+  border-radius: 50px;
+  color: #666;
+  outline: none;
+}
+
+.contact_title {
+  color: white;
+}
+.contact-input:focus {
+  border: 2px solid #ff3864;
+}
+
+.contact-form textarea {
+  height: 300px;
+  padding-top: 15px;
+  border-radius: 20px;
+}
+
+.contact-form button {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  font-size: 16px;
+  color: #fff;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
 }
