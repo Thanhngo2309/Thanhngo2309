@@ -639,14 +639,18 @@ header {
   align-items: center;
 }
 
+.logo img {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%; 
+  overflow: hidden; 
+}
+
+
 .copyrightinfor {
   width: 305px;
   height: 54px;
   gap: 2px;
-  display: flex; 
-  align-items: center; 
-  flex-direction: column;
-  justify-content: center;
 }
 
 .end {
