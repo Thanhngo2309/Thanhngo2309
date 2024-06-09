@@ -289,6 +289,24 @@ header {
   color: #333;
 }
 
+.pagetitle {
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+title_container {
+  width: max-content;
+}
+
+.home_and_linkone {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.home_and_linkone {
+  color: #696a75;
+}
+
 /* Main Content Styles */
 main {
   max-width: 1200px;
@@ -519,7 +537,7 @@ header.sticky {
   flex-direction: column;
   justify-content: space-between;
 }
-.linklist li{
+.linklist li {
   width: 47px;
   height: 24px;
   font-size: 16px;
@@ -571,14 +589,13 @@ header.sticky {
   justify-content: space-between;
 }
 
-.categorylist li{
+.categorylist li {
   width: 65px;
   height: 24px;
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
   text-align: left;
-
 }
 
 .newsletter {
@@ -682,7 +699,7 @@ header.sticky {
   width: 363px;
   height: 54px;
   gap: 10px;
-  display: flex; 
+  display: flex;
   align-items: center;
   flex-direction: row;
 }
@@ -690,7 +707,7 @@ header.sticky {
 .logo {
   width: 48px;
   height: 48px;
-  display: flex; 
+  display: flex;
   align-items: center;
 }
 
@@ -698,8 +715,8 @@ header.sticky {
   width: 305px;
   height: 54px;
   gap: 2px;
-  display: flex; 
-  align-items: center; 
+  display: flex;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -708,8 +725,8 @@ header.sticky {
   width: 789px;
   height: 24px;
   gap: 16px;
-  display: flex; 
-  flex-direction: row; 
+  display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: flex-end;
 }
@@ -717,7 +734,7 @@ header.sticky {
 .end p {
   width: 97px;
   height: 24px;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: flex-end;
