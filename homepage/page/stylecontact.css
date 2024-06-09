@@ -551,11 +551,6 @@ section {
   align-items: center;
 }
 
-section::before {
-  top: 6%;
-  left: 75%;
-}
-
 .card1::before {
   bottom: 2%;
   left: 10%;
