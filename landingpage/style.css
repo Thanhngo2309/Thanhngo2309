@@ -167,7 +167,10 @@ body.dark-mode .container_banner h1 {
   padding-right: 5px;
 }
 .content_card .info img {
-  width: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .thumbnail {
