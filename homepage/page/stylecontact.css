@@ -640,11 +640,7 @@ h3 {
   color: rgba(255, 255, 255, 1);
 }
 
-p {
-  font-size: 18px;
 
-  color: rgb(21, 22, 23);
-}
 
 table {
   display: flex;
@@ -766,8 +762,7 @@ td:first-child {
 .phone {
   width: 184px;
   height: 24px;
-  gap: 0px;
-  opacity: 1;
+  padding-top: 10px;
 }
 
 .p3,
@@ -841,6 +836,7 @@ td:first-child {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  padding-top: 5px
 }
 .category {
   display: flex;
@@ -893,6 +889,7 @@ td:first-child {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  padding-top: 5px
 }
 
 .newsletter {
