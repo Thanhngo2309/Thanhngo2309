@@ -205,13 +205,6 @@ header {
   padding: 0 20px;
 }
 
-.logo img {
-  max-height: 50px;
-  max-width: 50px;
-  border-radius: 50%; /* Tạo hình tròn */
-  overflow: hidden; /* Ẩn phần hình ảnh vượt quá kích thước */
-}
-
 .beside-logo {
   margin-right: 20px;
 }
@@ -711,14 +704,17 @@ header.sticky {
   align-items: center;
 }
 
+.logo img {
+  max-height: 50px;
+  max-width: 50px;
+  border-radius: 50%; 
+  overflow: hidden; 
+}
+
 .copyrightinfor {
   width: 305px;
   height: 54px;
   gap: 2px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .end {
