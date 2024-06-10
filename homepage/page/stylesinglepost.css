@@ -152,7 +152,6 @@ header {
 }
 
 .v2101_22009 {
-  background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   padding: 30px;
@@ -661,7 +660,7 @@ background-color: rgba(246, 246, 247, 1);
   border: 1px solid rgba(232, 232, 234, 1);
   margin-left: 20px;
 }
-
+ /* set up darkmode */
 body.dark-mode {
   background-color: #091e42;
   color: #f5f5f5;
