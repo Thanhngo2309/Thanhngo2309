@@ -394,8 +394,7 @@ header {
 .phone {
   width: 184px;
   height: 24px;
-  gap: 0px;
-  opacity: 1;
+  padding-top: 10px;
 }
 
 .p3,
@@ -469,6 +468,7 @@ header {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  padding-top: 5px
 }
 .category {
   display: flex;
@@ -521,6 +521,7 @@ header {
   font-weight: 400;
   line-height: 24px;
   text-align: left;
+  padding-top: 5px
 }
 
 .newsletter {
@@ -640,10 +641,6 @@ header {
   width: 305px;
   height: 54px;
   gap: 2px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .end {
