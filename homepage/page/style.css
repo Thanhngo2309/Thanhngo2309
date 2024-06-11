@@ -152,6 +152,11 @@ header {
   
 }
 
+.content_card h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .v2101_22009 {
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);

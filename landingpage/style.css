@@ -158,11 +158,19 @@ body.dark-mode .container_banner h1 {
   width: 100%;
 }
 
-.content_card h1 {
+.content_card h1  {
   font-size: 17px;
   margin-bottom: 20px;
   margin-top: 20px;
+  
 }
+
+.content_card h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
 
 .row {
   display: flex;
